@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="studentprofiler.css">
+	<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+
+
+
+<!-- <style type="text/css">
+.header{
+width: 100%;
+height: 425px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.headNav{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    top:80px;
+    right: 2%;
+    border-radius: 10%;
+    outline: none;
+    display: none;
+}
+header li{
+    float: left;
+    position: relative;
+    top: 100px;
+    left: 18%;
+    width: 13%;
+    padding: 0px 20px 20px 20px;
+}
+
+header ul{
+    list-style: none;    
+}
+header a{
+    text-decoration: none;
+    color: #555;
+    background-color: white;
+    border-radius: 50px;
+    transition: background-color 10ms ease-out,color 200ms ease-out,transform 200ms ease-out;
+    width: 130px;
+    height: 54px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: bold;
+}
+header a:hover{
+    color: white ;
+    background-color:#916042;
+    transform: scale(1.2,1.2);
+    transition: background-color 10ms ease-out,color 200ms ease-out,transform 200ms ease-out;
+}
+.signup{
+    font-style: italic;
+    position: absolute;
+    top: 130px;
+    left: 38%;
+    font-size: 7.0em;
+    color: white;
+}
+@media screen and (max-width: 1000px){
+.header{
+width: 100%;
+height: 190px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+header li{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    display: none;
+}
+.signup{
+    font-style: italic;
+    position: absolute;
+    top: 10px;
+    left: 38%;
+    font-size: 4.0em;
+    color: white;
+}
+@media screen and (max-width: 600px){
+	.signup{
+    font-style: italic;
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    font-size: 4.0em;
+    color: white;
+}
+}
+
+</style> -->
+</head>
+<body>
+	
+	<header class="header">
+		
+ 	<ul>
+    <li>
+    	<a class="headerLinks" href="http://www.sjbsvm.com/">Home</a>
+    </li>
+    <li>
+	    <a class="headerLinks" href="http://www.sjbsvm.com/login.php">Log In</a>
+	</li>
+
+	<li>
+	    <a class="headerLinks" href="signupSchool.html" >Sign up</a>
+	</li>
+
+	<li>
+        <a class="headerLinks" href="http://www.sjbsvm.com/about.php">About us</a>
+	</li> 
+
+	<li>
+        <a class="headerLinks" href="">Refrences</a>
+	</li>
+    </ul>
+    
+</header><!-- /header -->
+
+<p class="signup">
+    Profile
+</p>
+
+<button class="headNav" onclick="nav()"></button>
+
+<script type="text/javascript">
+	function nav() {
+		var bar=document.getElementsByClassName('headerLinks');
+		bar=bar[0];
+		var para=document.getElementsByClassName('signup');
+		para=para[0];
+		var header=document.getElementsByClassName('header');
+		header=header[0];
+		var paraText=para.innerHTML;
+           
+          bar.style.display="block";
+          $('.header').addClass('header1');
+         
+	}
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="parallax.min.js"></script>
+<script >
+	$('.header').parallax({imageSrc: 'backGround/school_bg.jpg'});
+</script>
+</body>
+</html>

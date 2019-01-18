@@ -6,7 +6,7 @@
 	<title>Time Table</title>
 	<link rel="stylesheet" href="">
 	<style type="text/css">
-	    header{
+header{
 width: 100%;
 height: 425px;
 position: absolute;
@@ -14,17 +14,17 @@ top: 0px;
 left: 0px;
 }
 header li{
-    float: right;
-	position: relative;
+    float: left;
+    position: relative;
     top: 100px;
-    left: -330px;
+    left: 18%;
     padding: 0px 20px 20px 20px;
 }
 header ul{
-	list-style: none;    
+    list-style: none;    
 }
 header a{
-	text-decoration: none;
+    text-decoration: none;
     color: #555;
     background-color: white;
     border-radius: 50px;
@@ -44,31 +44,102 @@ header a:hover{
     transition: background-color 10ms ease-out,color 200ms ease-out,transform 200ms ease-out;
 }
 .timeTable{
-	font-style: italic;
+    font-style: italic;
     position: absolute;
     top: 130px;
-    left: 530px;
+    left: 32%;
     font-size: 7.0em;
     color: white;
 }
-		table{
-			position: absolute;
-			top: 425px;
-			left: 0px;
-			border:2px solid black;
-			padding-bottom: 1.5px;
-		}
-		th{
-			border:1px solid black;
-			width: 180px;
-			height: 80px;
-			color: black;
-		}
-		.headings{
-           font-size: 1.4em;
-           font-style: bold;
-           color: black;
-		}
+table{
+position: absolute;
+top: 425px;
+left: 0px;
+border:2px solid black;
+padding-bottom: 1.5px;
+}
+th{
+border:1px solid black;
+width: 180px;
+height: 80px;
+color: black;
+}
+.headings{
+font-size: 1.4em;
+font-style: bold;
+color: black;
+}
+
+
+
+@media screen and (max-width:1300px){
+header li{
+    left: 15%;
+}
+}
+@media screen and (max-width:1150px){
+header li{
+    left: 8%;
+}
+}
+@media screen and (max-width: 1000px){
+.header{
+width: 100%;
+height: 190px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+header li{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    display: none;
+}
+.timeTable{
+    top: 10px;
+    left: 36%;
+    font-size: 4.0em;
+}
+table{
+position: absolute;
+top: 190px;
+left: 0px;
+border:2px solid black;
+padding-bottom: 1.5px;
+}
+}
+@media screen and (max-width: 768px){
+.left{
+    position: absolute;
+    top: 430px;
+    left: 30%;
+}
+.right{
+    position: absolute;
+    top: 430px;
+    left: 58.5%;
+}
+.links li{
+    width: 90%;
+}
+.links a{
+    height: 120px;
+}
+.links a p{
+    position: relative;
+    top:60px;
+    font-size: 1.1em;
+}
+}
+@media screen and (max-width: 600px){
+.timeTable{
+    top: 10px;
+    left: 30%;
+    font-size: 4.0em;
+}
+}
 	</style>
 </head>
 <body>
@@ -93,8 +164,8 @@ header a:hover{
 	    <a class="home headerLinks" href="http://www.sjbsvm.com/">Home</a>
 	</li>
     </ul>
-    <p class="signup">
-	Signup
+    <p class="timeTable">
+	Time Table
 </p>
 </header><!-- /header -->
 

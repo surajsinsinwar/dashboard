@@ -10,15 +10,14 @@
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
     </script>
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
+    <style type="text/css">
+        
 
-
-
-  <style type="text/css">
-
-  header{
+header{
 width: 100%;
 height: 425px;
 position: absolute;
@@ -26,17 +25,17 @@ top: 0px;
 left: 0px;
 }
 header li{
-    float: right;
-	position: relative;
+    float: left;
+    position: relative;
     top: 100px;
-    left: -330px;
+    left: 18%;
     padding: 0px 20px 20px 20px;
 }
 header ul{
-	list-style: none;    
+    list-style: none;    
 }
 header a{
-	text-decoration: none;
+    text-decoration: none;
     color: #555;
     background-color: white;
     border-radius: 50px;
@@ -59,14 +58,52 @@ header a:hover{
     font-style: italic;
     position: absolute;
     top: 130px;
-    left: 615px;
+    left: 38%;
     font-size: 7.0em;
     color: white;
 }
+.question{
+    position: absolute;
+    top: 400px;
+    left: 0%;
+    width: 100%;
+    height: 70px;
+}
+.questiona{
+    opacity: 1;
+    font-style: italic;
+    font-size: 4.0em;
+    position: absolute;
+    top: 0px;
+    left: 26%;
+    transition: opacity 0.4s ease-in;
+}
+.questionb{
+    opacity: 1;
+    font-style: italic;
+    font-size: 4.0em;
+    position: absolute;
+    top: 0px;
+    left: 54.4%;
+    transition: opacity 0.4s ease-in;
+}
+.questionc{
+    opacity: 1;
+    font-style: italic;
+    font-size: 4.0em;
+    position: absolute;
+    top: 0px;
+    left: 70%;
+    transition: opacity 0.4s ease-in;
+}
+.question1{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
 .studentb{
     position: absolute;
-    top:490px;
-    left:675px;
+    top:80px;
+    left:44.5%;
     width: 130px;
     height: 54px;
     display: table-cell;
@@ -81,8 +118,8 @@ header a:hover{
 }
 .studentb1{
     position: absolute;
-    top:590px;
-    left:1175px;
+    top:290px;
+    left:78%;
     width: 130px;
     height: 54px;
     display: table-cell;
@@ -98,9 +135,9 @@ header a:hover{
 
 
 .teacherb{
-    position: absolute;
-    top: 490px;
-    left: 900px;
+    position: relative;
+    top: 80px;
+    left: 59.5%;
     width: 130px;
     height: 54px;
     display: table-cell;
@@ -115,8 +152,8 @@ header a:hover{
 }
 .teacherb1{
     position: absolute;
-    top: 690px;
-    left: 1175px;
+    top: 390px;
+    left: 78%;
     width: 130px;
     height: 54px;
     display: table-cell;
@@ -153,7 +190,7 @@ header a:hover{
     outline: none; 
 }
 .rollno{
-	position: absolute;
+    position: absolute;
     top:90px;
     left: 80px;
     width: 100px;
@@ -164,9 +201,10 @@ header a:hover{
     outline: none; 
 }
 .imageUpload{
-	position: absolute;
+    position: absolute;
     top:100px;
     left: 210px;
+    width: 21%;
     border-radius: 20px;
     outline: none;
 }
@@ -303,37 +341,7 @@ header a:hover{
     outline: none;
     border-radius: 20px;
 }
-  .questiona{
-  	opacity: 1;
-    font-style: italic;
-    font-size: 4.0em;
-    position: absolute;
-    top: 415px;
-    left: 400px;
-    transition: opacity 0.4s ease-in;
-}
-.questionb{
-	opacity: 1;
-	font-style: italic;
-    font-size: 4.0em;
-    position: absolute;
-    top: 415px;
-    left: 825px;
-    transition: opacity 0.4s ease-in;
-}
-.questionc{
-	opacity: 1;
-    font-style: italic;
-    font-size: 4.0em;
-    position: absolute;
-    top: 415px;
-    left: 1045px;
-    transition: opacity 0.4s ease-in;
-}
-.question1{
-	opacity: 0;
-	transition: opacity 0.4s ease-in;
-}
+  
 .student{
     width: 0px;
     height: 500px;
@@ -349,11 +357,11 @@ header a:hover{
     transition: width 0.7s ease-out,opacity 0s ease;
 }
 .teacher{
-	width: 0px;
+    width: 0px;
     height: 500px;
     position: absolute;
     top:655px;
-    left: 0px;
+    left: 0%;
     background-size: cover;
     border-radius: 20px;
     transform:scale(2.0,1.4);
@@ -367,7 +375,7 @@ header a:hover{
     height: 500px;
     position: absolute;
     top:655px;
-    left: 0px;
+    left: 0%;
     background-size: cover;
     border-radius: 20px;
     transform:scale(2.0,1.4);
@@ -377,11 +385,11 @@ header a:hover{
     transition: left 0.7s ease-out,opacity 0.6s ease,width 0.5s ease-out;
 }
 .teacher1{
-	width: 400px;
+    width: 400px;
     height: 500px;
     position: absolute;
     top:655px;
-    left: 0px;
+    left: 0%;
     background-size: cover;
     border-radius: 20px;
     transform:scale(2.0,1.4);
@@ -395,7 +403,7 @@ header a:hover{
     height: 500px;
     position: absolute;
     top:655px;
-    left: 550px;
+    left: 35%;
     background-size: cover;
     border-radius: 20px;
     transform:scale(2.0,1.4);
@@ -404,7 +412,7 @@ header a:hover{
     transition: left 0.7s ease-out;
 }
 .teacher2{
-	width: 400px;
+    width: 400px;
     height: 500px;
     position: absolute;
     top:655px;
@@ -416,7 +424,725 @@ header a:hover{
     background-color: #916042;
     transition: left 0.7s ease-out;
 }
-  </style>
+
+
+
+
+@media screen and (max-width:1400px){
+.student{
+    width: 0px;
+    height: 500px;
+    position: absolute;
+    top:655px;
+    left: 0px;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.6,1.4);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 0;
+    transition: width 0.7s ease-out,opacity 0s ease;
+}
+.teacher{
+    width: 0px;
+    height: 500px;
+    position: absolute;
+    top:655px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.2);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 0;
+    transition: width 0.7s ease-out,opacity 0s ease;
+}
+.student1{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:655px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.2);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 1;
+    transition: left 0.7s ease-out,opacity 0.6s ease,width 0.5s ease-out;
+}
+.teacher1{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:655px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.2);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 1;
+    transition: left 0.7s ease-out,opacity 0.6s ease,width 0.5s ease-out;
+}
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:655px;
+    left: 28%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.2);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:655px;
+    left: 28%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.2);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+}
+
+
+
+@media screen and (max-width: 1350px){
+.questiona{
+    left: 24%;
+    font-size: 3.5em;
+}
+.questionb{
+    left: 55%;
+    font-size: 3.5em;
+}
+.questionc{
+    left: 74%;
+    font-size: 3.5em;
+}
+.studentb{
+    top: 70px;
+    width: 110px;
+    height: 52px;
+    font-size: 1.1em;
+}
+.studentb1{
+    position: absolute;
+    top:290px;
+    left:78%;
+    width: 110px;
+    height: 52px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 500ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+.teacherb{
+    top: 70px;
+    left: 63%;
+    width: 110px;
+    height: 52px;
+    font-size: 1.1em;
+}
+.teacherb1{
+    position: absolute;
+    top: 390px;
+    left: 78%;
+    width: 110px;
+    height: 52px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 300ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+}
+
+
+
+@media screen and (max-width:1300px){
+header li{
+    left: 15%;
+}
+}
+
+
+
+@media screen and (max-width:1150px){
+header li{
+    left: 8%;
+}
+}
+
+
+
+@media screen and (max-width: 1000px){
+.header{
+width: 100%;
+height: 190px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+header li{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    display: none;
+}
+.signup{
+    top: 10px;
+    left: 38%;
+    font-size: 4.0em;
+}
+.question{
+    top: 170px;
+}
+.questiona{
+    left: 22%;
+    font-size: 3.0em;
+}
+.questionb{
+    left: 57%;
+    font-size: 3.0em;
+}
+.questionc{
+    left: 76%;
+    font-size: 3.0em;
+}
+.studentb{
+    top: 60px;
+    width: 100px;
+    height: 48px;
+    font-size: 1.1em;
+}
+.studentb1{
+    position: absolute;
+    top:190px;
+    left:78%;
+    width: 100px;
+    height: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 500ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+.teacherb{
+    top: 60px;
+    left: 63%;
+    width: 100px;
+    height: 48px;
+    font-size: 1.1em;
+}
+.teacherb1{
+    position: absolute;
+    top: 290px;
+    left: 78%;
+    width: 100px;
+    height: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 300ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+.student{
+    width: 0px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 0px;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.6,1.1);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 0;
+    transition: width 0.7s ease-out,opacity 0s ease;
+}
+.teacher{
+    width: 0px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.1);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 0;
+    transition: width 0.7s ease-out,opacity 0s ease;
+}
+.student1{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.1);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 1;
+    transition: left 0.7s ease-out,opacity 0.6s ease,width 0.5s ease-out;
+}
+.teacher1{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.1);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 1;
+    transition: left 0.7s ease-out,opacity 0.6s ease,width 0.5s ease-out;
+}
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 20%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.1);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 20%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.1);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+}
+
+
+
+@media screen and (max-width: 870px){
+.studentb1{
+    position: absolute;
+    top:190px;
+    left:86%;
+    width: 100px;
+    height: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 500ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+.teacherb1{
+    position: absolute;
+    top: 290px;
+    left: 86%;
+    width: 100px;
+    height: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 300ms ease-out,top 500ms ease-out;
+    outline: none;
+}  
+}
+
+
+
+@media screen and (max-width: 768px){
+iframe{
+    width: 30%;
+    height: 424px;
+}
+.studentb1{
+    position: absolute;
+    top:50px;
+    left:15%;
+    width: 100px;
+    height: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 500ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+.teacherb1{
+    position: absolute;
+    top: 50px;
+    left: 75%;
+    width: 100px;
+    height: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 300ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 25%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.1);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 25%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.5,1.1);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}  
+}
+
+
+
+@media screen and (max-width: 680px){
+.studentb1{
+    position: absolute;
+    top:50px;
+    left:10%;
+    width: 100px;
+    height: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 500ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+.student{
+    width: 0px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 0px;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.2,1.0);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 0;
+    transition: width 0.7s ease-out,opacity 0s ease;
+}
+.teacher{
+    width: 0px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.2,1.0);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 0;
+    transition: width 0.7s ease-out,opacity 0s ease;
+}
+.student1{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.2,1.0);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 1;
+    transition: left 0.7s ease-out,opacity 0.6s ease,width 0.5s ease-out;
+}
+.teacher1{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 0%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.2,1.0);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    opacity: 1;
+    transition: left 0.7s ease-out,opacity 0.6s ease,width 0.5s ease-out;
+}
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 20%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.2,1.0);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 20%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.2,1.0);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+}
+@media screen and (max-width: 600px){
+.signup{
+    top: 10px;
+    left: 30%;
+    font-size: 4.0em;
+}
+.teacherb1{
+    position: absolute;
+    top:50px;
+    left:68%;
+    width: 100px;
+    height: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-style: italic; 
+    transform: scale(1.0,1.0);
+    transition: transform .2s ease-in,left 500ms ease-out,top 500ms ease-out;
+    outline: none;
+}
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 13%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.2,1.0);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:305px;
+    left: 13%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.2,1.0);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+}
+
+
+
+@media screen and (max-width: 520px){
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:280px;
+    left: 7.5%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.0,0.9);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:280px;
+    left: 7.5%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.0,0.9);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+} 
+}
+
+
+
+@media screen and (max-width: 431px){
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:220px;
+    left: 3%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.0,0.7);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:220px;
+    left: 3%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(1.0,0.7);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+} 
+}
+
+
+
+@media screen and (max-width: 376px){
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:230px;
+    left: -3%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(0.9,0.7);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:230px;
+    left: -3%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(0.9,0.7);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+} 
+}
+
+
+
+@media screen and (max-width: 321px){
+.student2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:200px;
+    left: -11%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(0.7,0.6);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+}
+.teacher2{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:200px;
+    left: -11%;
+    background-size: cover;
+    border-radius: 20px;
+    transform:scale(0.7,0.6);
+    transition: transform .3s ease-out;
+    background-color: #916042;
+    transition: left 0.7s ease-out;
+} 
+}
+
+
+    </style>
+
+
+
+
 </head>
 <body>
 	<header class="header">
@@ -451,6 +1177,7 @@ header a:hover{
 
 
 <!-- first question for creating account as teacher or student -->
+<div class="question">
 <p class="questiona">
 	Are you a</p>
 	<button class="studentb" type="button" onclick="student()">Student</button>
@@ -458,7 +1185,7 @@ header a:hover{
 	<button class="teacherb" type="button " onclick="teacher()">Teacher</button>
 	<p class="questionc">?</p>
 </p>
-
+</div>
 
 
 
@@ -697,7 +1424,7 @@ header a:hover{
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="parallax.min.js"></script>
 <script >
-	$('.header').parallax({imageSrc: 'https://res.cloudinary.com/dmelnrf1p/image/upload/v1545383642/project/school_bg.jpg'});
+	$('.header').parallax({imageSrc: 'backGround/school_bg.jpg'});
 </script>
 </body>
 </html>
